@@ -61,7 +61,10 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
+button:active {
+  background-color: #ffb300;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
 input[type="checkbox"] {
   width: 22px;
   height: 22px;
